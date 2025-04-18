@@ -17,10 +17,10 @@
 }*/
 public class Example_1 {
     public boolean containsZero(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == 0) {
-                return true;
-            }
+        for (int i = 0; i < nums.length; i++) {         //We didnt assign a hasZero,len and number variable here
+            if (nums[i] == 0) {                         //instead,we directly returned the true or false value
+                return true;                            //used nums.length
+            }                                           //and directly checked nums[i] equals to 0 or not
         }
         return false;
     }

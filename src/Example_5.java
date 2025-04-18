@@ -15,21 +15,8 @@ public class Example_5{
         int counter=0;
         for(int i=0;i<s.length();i++){
             switch(s.charAt(i)){
-                case 'a':
+                case 'a': case 'e': case 'i': case 'o': case 'u' :
                     counter++;
-                    break;
-                case 'e':
-                    counter++;
-                    break;
-                case 'i':
-                    counter++;
-                    break;
-                case 'o':
-                    counter++;
-                    break;
-                case 'u':
-                    counter++;
-                    break;
             }
         }
         return counter;
